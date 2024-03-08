@@ -2,9 +2,109 @@ body{
     margin: 0;
 }
 .navbar{
-    background-color: transparent;
     width:100vw;
     height: 8vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    position:fixed;
+    z-index: 1000;
+}
+.container-fluid{
+    background-color: #f7f9fa;
+}
+.navbar-toggler{
+    border: 0;
+}
+.socialTop{
+    object-fit: contain;
+    height:25px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+
+.landHolder{
+    display: flex;
+    /* background-color: #121212; */
+}
+
+
+
+.landLeft{
+    /* border-right: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.landRight{
+}
+.myImage{
+    position: absolute; /* Position the image absolutely */
+    bottom: 0; /* Attach the image to the bottom */
+    right: 0; /* Attach the image to the right */
+    max-width: 100%; /* Limit the maximum width of the image */
+    max-height: 80%;
+    filter: grayscale(100);
+    transition: 4s;
+}
+.myImage:hover{
+    filter: grayscale(0);
+    transition: 1s;
+}
+
+
+
+
+
+/*RESPONSIVENESS--------------------------*/
+@media(orientation:landscape){
+    /* .navbar{
+        background: linear-gradient(90deg, #f7f9fa 50%, #3d3d3d 50%);
+    }
+    .container-fluid{
+        background: linear-gradient(90deg, #f7f9fa 50%, #3d3d3d 50%);
+    } */
+    .landHolder{
+        /* background-color: white; */
+    }
+    .landLeft{
+        height:92vh;
+        width:40vw;
+        margin-top: 8vh;
+
+    }
+    .landRight{
+        height:92vh;
+        width:60vw;
+        margin-top: 8vh;
+        padding-left: 20vw;
+        /* background-color: aqua; */
+    }
+}
+
+@media(orientation:portrait){
+    .landHolder{
+        flex-direction: column;
+    }
+    .landLeft{
+        height:50vh;
+        width:100vw;
+        /* border-radius: 0 0 10px 10px; */
+    }
+    .landRight{
+        height:50vh;
+        width:100vw;
+    }
 }
