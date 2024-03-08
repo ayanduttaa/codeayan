@@ -2,38 +2,9 @@ body{
     margin: 0;
 }
 .navbar{
+    background-color: transparent;
     width:100vw;
-    height:10vh;
-    /* background: aliceblue; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 8vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
-.navItemHolder{
-    display: flex;
-}
-.navItem{
-    padding:20px;
-    margin: 20px;
-    border-bottom: 2px solid yellow;
-    transition: 1s;
-}
-.navLink{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color:yellow;
-    transition: 1s;
-}
-
-.navItem:hover{
-    border-bottom: 2px solid green;
-    background-color: yellow; 
-
-}
-.navLink:hover{
-    color:black;
-}
-
-  
-
-
