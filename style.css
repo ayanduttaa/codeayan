@@ -4,13 +4,14 @@ body{
 .navbar{
     width:100vw;
     height: 8vh;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); */
     position:fixed;
     z-index: 1000;
 }
 .container-fluid{
-    background-color: #f7f9fa;
+    background-color: white;
 }
 .navbar-toggler{
     border: 0;
@@ -32,13 +33,8 @@ body{
 
 .landLeft{
     /* border-right: 1px solid black; */
+    display: flex;
 }
-
-
-
-
-
-
 
 
 
@@ -84,7 +80,14 @@ body{
         width:40vw;
         margin-top: 8vh;
 
+        align-items:center ;
     }
+    .landTextDiv{
+        margin-left: 2vw;;
+    }
+
+
+
     .landRight{
         height:92vh;
         width:60vw;
@@ -102,6 +105,10 @@ body{
         height:50vh;
         width:100vw;
         /* border-radius: 0 0 10px 10px; */
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .landRight{
         height:50vh;
