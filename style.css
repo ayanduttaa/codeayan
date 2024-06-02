@@ -40,7 +40,7 @@ body{
 
 @media(orientation:landscape){
     .introTextImg{
-        content: url("media/introh.png");
+        content: url("Media/introh.png");
         height: 100%;
         width:fit-content;
         object-fit: contain;
@@ -84,7 +84,7 @@ body{
 
 @media(orientation:portrait){
     .introTextImg{
-        content: url("media/introv.png");
+        content: url("Media/introv.png");
         width: 100%;  /* Make image take up full width of the container */
         height: 100%; /* Make image take up full height of the container */
         object-fit: contain;
