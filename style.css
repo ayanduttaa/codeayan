@@ -28,6 +28,7 @@ body{
     width:100vw;
 
     display: flex;
+    overflow-y: hidden;
 }
 
 .myImg{
@@ -40,7 +41,7 @@ body{
 
 @media(orientation:landscape){
     .introTextImg{
-        content: url("Media/introh.png");
+        content: url("media/introh.png");
         height: 100%;
         width:fit-content;
         object-fit: contain;
@@ -84,7 +85,7 @@ body{
 
 @media(orientation:portrait){
     .introTextImg{
-        content: url("Media/introv.png");
+        content: url("media/introv.png");
         width: 100%;  /* Make image take up full width of the container */
         height: 100%; /* Make image take up full height of the container */
         object-fit: contain;
@@ -186,7 +187,7 @@ body{
 /*My Expertise*/
 
 /*Projects Section*/
- .projectParent{
+.projectParent{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,23 +195,25 @@ body{
     border-bottom: 1px solid #000000;
     overflow: hidden;
 }
-.projectHolderDivMain{
+.cardParent{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.projItem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-}
+
 .card{
     border-radius: 0;
+    margin: 5px;
 }
 .projButton{
     border-radius: 0;
     border: 1px solid #000000;
+}
+
+@media(orientation:portrait){
+    .cardParent{
+        flex-direction: column;
+    }
 } 
 /*Projects Section*/
 
