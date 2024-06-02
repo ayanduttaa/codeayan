@@ -186,7 +186,7 @@ body{
 /*My Expertise*/
 
 /*Projects Section*/
-/* .projectParent{
+ .projectParent{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,7 +211,7 @@ body{
 .projButton{
     border-radius: 0;
     border: 1px solid #000000;
-} */
+} 
 /*Projects Section*/
 
 /*Youtube Section*/
