@@ -73,11 +73,15 @@ body{
     .landingChildRight{
         width:60vw;
         height:100vh;
+
+        display: flex;
+        justify-content:flex-end;
+        align-items:end
     }
 
     .myImg{
         height:80%;
-        position: absolute;
+        /* position: absolute; */
         bottom: 0;
         right: 0;
     }
@@ -110,9 +114,15 @@ body{
         height:50%;
     }
 
+    .landingChildDown{
+        display: flex;
+        justify-content:flex-end;
+        align-items:end
+    }
+
     .myImg{
-        height:50%;
-        position: absolute;
+        height:100%;
+        /* position: absolute; */
         bottom: 0;
         right: 0;
     }
@@ -195,6 +205,11 @@ body{
     border-bottom: 1px solid #000000;
     overflow: hidden;
 }
+
+.cardGrandParent{
+    display: flex;
+}
+
 .cardParent{
     display: flex;
     align-items: center;
@@ -212,6 +227,9 @@ body{
 
 @media(orientation:portrait){
     .cardParent{
+        flex-direction: column;
+    }
+    .cardGrandParent{
         flex-direction: column;
     }
 } 
