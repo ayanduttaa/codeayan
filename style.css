@@ -135,7 +135,10 @@ body{
 .expButton{
     flex-grow: 1;
     /* background-color: #00ff7f; */
-    font-weight: bold;
+    /* font-weight: bold; */
+}
+.spBrdBtn{
+    border-bottom: 1px solid #000000;
 }
 
 @media(orientation:landscape){
@@ -306,3 +309,6 @@ body{
 
   
 
+.navItemHome{
+    border-bottom: 1px solid #000000;;
+}
