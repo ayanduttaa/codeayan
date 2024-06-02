@@ -90,8 +90,8 @@ body{
 @media(orientation:portrait){
     .introTextImg{
         content: url("media/introv.png");
-        width: 100%;  /* Make image take up full width of the container */
-        height: 100%; /* Make image take up full height of the container */
+/*         width: 100%;  /* Make image take up full width of the container */ */
+        height: 120%; /* Make image take up full height of the container */
         object-fit: contain;
     }
 
@@ -121,7 +121,7 @@ body{
     }
 
     .myImg{
-        height:120%;
+        height:100%;
         /* position: absolute; */
         bottom: 0;
         right: 0;
