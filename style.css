@@ -2,6 +2,7 @@ body{
     margin: 0;
     user-select: none;
     border: 0;
+    user-select: none;
 }
 
 /*Navigation bar*/
