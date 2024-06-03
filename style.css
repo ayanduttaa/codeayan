@@ -129,6 +129,32 @@ body{
 }
 /*Landing Page*/
 
+/*Tools and Tech*/
+.tntParent{
+    display: flex;
+    justify-content: center;
+    align-items: centerS;
+}
+
+.toolImg{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+@media(orientation: landscape){
+    .toolImg{
+        content: url("media/tnth.png");
+    }
+}
+
+@media(orientation: portrait){
+    .toolImg{
+        content: url("media/tntv.png");
+    }
+}
+/*Tools and Tech*/
+
 /*My Expertise*/
 .experienceDiv{
     display: flex;
